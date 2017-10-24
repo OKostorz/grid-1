@@ -1,35 +1,50 @@
-* {margin: 0; padding: 0;}
+* {
+    margin: 0; 
+    padding: 0;
+}
+
 body {
 	background-image: url("bg.png");
 	font-family: Tahoma;
 }
 
-.frame{
+.frame { 
+    padding: 19px 20px 20px 10px;
+    margin: 0 389px;
+    width: 590px;
+    
+    
 	background-color: rgba(0,128,0,0.4);
-	
-	/* put css-rules in this ccs-block here below */
-	
 }
 
-h1{
+h1 {
+    padding: 20px 15px 20px 20px;
+    width: 565px;
+
+    margin-bottom: 30px;
+    line-height: 40px;
+    
+    
 	background-color: rgba(0,32,0,0.4);
-	line-height: 40px;
-	
-	/* put css-rules in this ccs-block here below */
 	
 }
 
 h2 {
+    padding: 4px 0 7px 18px;
+    margin-bottom: 10px;
+    
+    width: 574px;
+    border: 4px solid #800080;
 	line-height: 30px;
-	
-	/* put css-rules in this ccs-block here below */
 	
 }
 
-p{
+p {
+    padding: 10px ;
+    margin-bottom: 10px;
+    line-height: 20px;
+    
+    width: 580px;
 	background-color: rgba(256,256,0,0.4);
-	line-height: 20px;
 	
-	/* put css-rules in this ccs-block here below */
-
 }
